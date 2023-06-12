@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <script src="src/index.js" defer></script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <table>
+      <tbody id="tablebody-data">
+        <tr>
+          <td>Username</td>
+          <td>Email</td>
+          <td>Address</td>
+          <td>Admin</td>
+          <td>Image</td>
+        </tr>
+
+        <tr>
+          <td>Webmaster</td>
+          <td>example@email.com</td>
+          <td>Address</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>User123</td>
+          <td>example@email.com</td>
+          <td>Address</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>AnotherUser222</td>
+          <td>example@email.com</td>
+          <td>Address</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <div></div>
+    <form>
+      <input type="text" id="input-username" /> Username
+      <br />
+      <input type="email" id="input-email" /> Email
+      <br />
+      <input type="text" id="input-address" /> Address
+      <br />
+      <input type="checkbox" id="input-admin" /> Admin
+      <br />
+      <input type="file" id="input-image" accept="image/*" />
+      <br />
+      <input type="button" id="submit-data" /> Submit
+      <br />
+      <input type="button" id="empty-table" /> Empty table
+    </form>
+    <script src="src/index.js"></script>
+  </body>
+</html>
